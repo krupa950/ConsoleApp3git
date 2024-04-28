@@ -1,10 +1,19 @@
-﻿namespace ConsoleApp3git
+
+namespace ConsoleApp4git
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           List<string> list = new List<string>();
+            list.Add("java");
+            list.Add("c#");
+            list.Add("C++");
+
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
