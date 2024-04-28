@@ -9,6 +9,8 @@ namespace ConsoleApp4git
             list.Add("java");
             list.Add("c#");
             list.Add("C++");
+            list.Add("C");
+            
 
             foreach (var item in list)
             {
