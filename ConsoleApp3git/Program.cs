@@ -7,10 +7,13 @@ namespace ConsoleApp4git
         {
            List<string> list = new List<string>();
             list.Add("java");
+            list.Add("asdfa");
             list.Add("c#");
             list.Add("C++");
             list.Add("C");
-            
+            list.Add("python");
+            list.Add("nobe");
+            list.Add("nvso");
 
             foreach (var item in list)
             {
